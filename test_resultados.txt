@@ -1,0 +1,72 @@
+🧪 RESULTADOS DE PRUEBAS - SISTEMA DE ESCANEO DE DISPOSITIVOS
+Fecha: 31/10/2025
+Equipo: Grupo POO + Ciberseguridad
+=============================================================
+
+✅ PRUEBA 1: Creación de dispositivos y validaciones
+• Dispositivo creado correctamente: Ordenador - ThinkPad X1 (Lenovo)
+• Dispositivo creado correctamente: Router - Archer C7 (TP-Link)
+• Dispositivo creado correctamente: TelefonoMovil - Galaxy S23 (Samsung)
+• Validación de IP 192.168.1.1: EXITOSA
+• Validación de IP 999.999.999.999: FALLIDA (como se esperaba)
+
+✅ PRUEBA 2: Polimorfismo en escaneo de vulnerabilidades
+• Ordenador: Implementa escaneo específico de software
+• Router: Implementa escaneo específico de puertos
+• Teléfono: Implementa escaneo específico de aplicaciones
+• Todos responden al mismo método escanear_vulnerabilidades()
+
+✅ PRUEBA 3: Encapsulamiento y propiedades
+• Atributos _modelo y _fabricante protegidos
+• Getters y setters funcionando correctamente
+• Validación de datos vacíos: EXITOSA
+
+✅ PRUEBA 4: Métodos estáticos y de clase
+• @staticmethod validar_ip(): funciona sin instancia
+• @classmethod desde_json(): crea objetos correctamente
+• @staticmethod generar_reporte_escaneo(): formatea reportes
+
+✅ PRUEBA 5: Manejo de errores
+• JSON inválido: manejado correctamente
+• Dispositivo con datos incompletos: omitido con advertencia
+• Tipo de dispositivo desconocido: manejado con error
+
+🎯 EJECUCIÓN DE MUESTRA:
+==================================================
+🚀 DEMOSTRACIÓN DEL SISTEMA DE ESCANEO
+==================================================
+
+🔍 Validando IP 192.168.1.1: True
+
+🎯 Iniciando escaneo en ThinkPad X1 (Lenovo)...
+------------------------------------------------------------
+💻 ThinkPad X1: Análisis de software – 5 actualizaciones críticas pendientes.
+   • Sistema operativo desactualizado
+   • 5 programas requieren parches de seguridad
+
+🎯 Iniciando escaneo en Archer C7 (TP-Link)...
+------------------------------------------------------------
+📡 Archer C7: Escaneo de puertos – 3 puertos abiertos detectados.
+   • Configuración WiFi vulnerable
+   • Firmware desactualizado
+   • Puertos TCP 3 expuestos
+
+🎯 Iniciando escaneo en Galaxy S23 (Samsung)...
+------------------------------------------------------------
+📱 Galaxy S23: Análisis de apps – 4 aplicaciones con permisos excesivos.
+   • Sistema operativo móvil desactualizado
+   • 4 apps con acceso a datos sensibles
+   • Configuración de privacidad débil
+
+==================================================
+📊 REPORTE FINAL DE VULNERABILIDADES
+==================================================
+• ThinkPad X1: 5 vulnerabilidades encontradas
+• Archer C7: 3 vulnerabilidades encontradas
+• Galaxy S23: 4 vulnerabilidades encontradas
+
+🔍 Total de vulnerabilidades detectadas: 12
+🚨 ALERTA: Nivel de riesgo ALTO
+
+CONCLUSIÓN: Todas las funcionalidades implementadas funcionan correctamente.
+El sistema demuestra los principios de POO de manera efectiva.
