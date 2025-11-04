@@ -57,3 +57,5 @@ Sistema desarrollado en Python que simula un analizador de vulnerabilidades de r
 
 10. **Aprendizaje equipo**: Modularidad permite trabajo paralelo, roles definidos mejoran eficiencia
 >>>>>>> 0d480f3 (Subiendo mis cambios a mi rama main)
+
+Trello : https://trello.com/invite/b/69097f1c9d6f1cb1cf52eb8a/ATTI02f9e08145f4604c4a4218369ec472a554D33FF2/trabajowil
